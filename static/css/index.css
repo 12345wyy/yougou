@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#yg{
+    width: 100%;
+    height: 100%;
+}
+/* 头部时 */
+.header{
+    width: 100%;
+    height: 40px;
+    background:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.header .left_content{
+    padding-left:150px;
+    width: 90px;
+    height: 40px;
+    float:left;
+    display: flex;
+    justify-content: space-around;
+    /* line-height: 40px; */
+    align-items: center;
+}
+.header .left_content li{
+    cursor: pointer;
+}
+.header .left_content li:hover{
+    color:#ccc;
+}
+.header .right_content{
+    width: 300px;
+    height: 40px;
+    float: right;
+}
+.header .right_content li{
+    float:left;
+    line-height: 40px;
+    padding-right:11px;
+
+}
+.right_content li a{
+color:white;
+}
+.right_content li a:hover{
+    color:#ccc;
+}

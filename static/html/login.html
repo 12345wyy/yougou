@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="left_content">
+            <li>关注</li>
+            <li>下载</li>
+        </ul>
+        <div class="right_content">
+            <ul>
+                <li>
+                    <a href="#">登录</a>
+                </li>
+                <li>
+                    <a href="#">注册</a>
+                </li>
+                <li>
+                    <a href="#">收藏</a>
+                </li>
+                <li>
+                    <a href="#">购物袋</a>
+                </li>
+                <li>
+                    <a href="#">公告</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="login">
+        <ul>
+            <li>
+                <a href="#">登录</a>
+            </li>
+            <li>
+                <a href="#">注册</a>
+            </li>
+        </ul>
+        <form action="">
+            <input type="text" placeholder="请输入手机号" name="phone">
+            <p>请输入手机号</p>
+            <input type="text" placeholder="验证码" name="code">
+            <p>验证码错误</p>
+            <input type="text" placeholder="短信验证码" name="nodeCode">
+            <input type="password" placeholder="数字、字母、符号均可，6-25个字符以内" name="password">
+            <p>密码错误</p>
+            <input type="password" placeholder="确认密码" name="repassword">
+            <p>密码不符</p>
+            <input type="checkbox">
+            <span>我已阅读并同意《优购会员注册协议》</span>
+            <input type="submit" value="确认并注册">
+        </form>
+    </div>
+</body>
+
+</html>
+<script src="../js/login.js"></script>
+<script>
+    login.init();
+</script>

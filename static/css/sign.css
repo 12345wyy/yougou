@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.header .left_content{
+    padding-left:150px;
+    width: 90px;
+    height: 40px;
+    float:left;
+    display: flex;
+    justify-content: space-around;
+    /* line-height: 40px; */
+    align-items: center;
+}
+.header .left_content li{
+    cursor: pointer;
+}
+.header .left_content li:hover{
+    color:#ccc;
+}
+.header .right_content{
+    width: 300px;
+    height: 40px;
+    float: right;
+}
+.header .right_content li{
+    float:left;
+    line-height: 40px;
+    padding-right:11px;
+
+}
+.right_content li a{
+color:white;
+}
+.right_content li a:hover{
+    color:#ccc;
+}
+
+.sign{
+    width: 378px;
+    height: 530px;
+    border:1px solid black;
+    margin: 50px auto;
+}
+.sign ul{
+    width: 340px;
+    height:40px;
+    margin:20px 27px 0 27px;
+}
+.sign ul li{
+    width: 120px;
+    height: 40px;
+    background:rgb(231, 231, 231);
+    float:left;
+    line-height: 40px;
+    text-align: center;
+    padding:0 20px;
+
+}
+.sign ul li:nth-child(1){
+    background:black;
+}
+.sign ul li a:nth-child(1){
+    color:white;
+}
+.sign ul li a{
+color:black;
+}
+input{
+    width: 340px;
+    height: 30px;
+    border:1px solid #ccc;
+    margin:10px 19px;
+    
+    }
+p{
+    margin:10px 19px;
+}
+    
+input[type="submit"]{
+    background:black;
+    color:white;
+}  
+form>a{
+    font-size: 14px;
+color:rgb(141, 140, 140);
+float: right;
+/* margin-right: 10px; */
+}  

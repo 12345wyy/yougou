@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+ .header .left_content{
+    padding-left:150px;
+    width: 90px;
+    height: 40px;
+    float:left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.header .left_content li{
+    cursor: pointer;
+}
+.header .left_content li:hover{
+    color:#ccc;
+}
+.header .right_content{
+    width: 300px;
+    height: 40px;
+    float: right;
+}
+.header .right_content li{
+    float:left;
+    line-height: 40px;
+    padding-right:11px;
+
+}
+.right_content li a{
+color:white;
+}
+.right_content li a:hover{
+    color:#ccc;
+} 
+
+.login{
+    width: 378px;
+    height: 530px;
+    border:1px solid black;
+    margin:40px auto;
+}
+.login ul{
+    width: 340px;
+    height:40px;
+    /* margin-top:20px; */
+    margin:20px 19px 0 19px;
+}
+.login ul li:nth-child(1){
+    background:rgb(231, 231, 231);
+}
+.login ul li:nth-child(2){
+    background:black;
+}
+.login ul li:nth-child(2) a{
+    color:white;
+}
+
+.login ul li{
+    width: 120px;
+    height: 40px;
+    float:left;
+    margin:0 5px;
+    line-height: 40px;
+    text-align: center;
+    padding:0 20px;
+    background:red;
+
+}
+.login ul li a{
+color:black;
+}
+form{
+    padding:18px;
+}
+input{
+width: 340px;
+height: 30px;
+border:1px solid #ccc;
+margin:10px 0;
+
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+form p,span{
+font-size: 14px;
+color:rgb(124, 122, 122);
+}
+input[type="submit"]{
+    background:black;
+    color:white;
+}
