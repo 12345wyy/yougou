@@ -51,18 +51,18 @@ color:white;
     color:#ccc;
 }
 
-.sign{
+.sign_quick{
     width: 378px;
     height: 400px;
     border:1px solid black;
     margin: 50px auto;
 }
-.sign ul{
+.sign_quick ul{
     width: 340px;
     height:40px;
     margin:20px 27px 0 27px;
 }
-.sign ul li{
+.sign_quick ul li{
     width: 120px;
     height: 40px;
     background:rgb(231, 231, 231);
@@ -72,13 +72,13 @@ color:white;
     padding:0 20px;
 
 }
-.sign ul li:nth-child(1){
+.sign_quick ul li:nth-child(1){
     background:black;
 }
-.sign ul li a:nth-child(1){
+.sign_quick ul li a:nth-child(1){
     color:white;
 }
-.sign ul li a{
+.sign_quick ul li a{
 color:black;
 }
 input{
@@ -100,5 +100,4 @@ form>a{
     font-size: 14px;
 color:rgb(141, 140, 140);
 float: right;
-/* margin-right: 10px; */
 }  
